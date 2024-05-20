@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { Checkbox } from '../components/Checkbox';
 import { Facebook } from '../components/Facebook';
 import '../styles/signin.css';
@@ -6,6 +6,13 @@ import '../styles/signin.css';
 
 
 export const SignIn = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log({ email, password });
+    };
     return (
         <div className="sign-in">
             <div className="div">
@@ -16,7 +23,7 @@ export const SignIn = () => {
                     <img className="img" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
                     <div className="text-wrapper">Digital Foods</div>
                 </div>
-                <div className="frame">
+                <form className="frame" onSubmit={handleSubmit}>
                     <div className="text-wrapper-2">Masuk Akun Digital Food</div>
                     <div className="frame-2">
                         <div className="frame-3">
@@ -24,12 +31,26 @@ export const SignIn = () => {
                                 <div className="frame-4">
                                     <img className="img" alt="" src="Vector.png" />
                                     <div className="text-wrapper-3">Email</div>
+                                    <div>
+                                    <input
+                                    type="email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    required
+                                        />
+                                    </div>
                                 </div>
                             </div>
                             <div className="frame-wrapper">
                                 <div className="frame-4">
                                     <img className="img" alt="" src="Vector-a.png" />
                                     <div className="text-wrapper-3">Password</div>
+                                    <input 
+                                    type="text"
+                                    value={address}
+                                    onChange={(e) => setPassword(e.target.value)}
+                                    required
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -65,7 +86,7 @@ export const SignIn = () => {
                         <div className="text-wrapper-4">Belum punya akun?</div>
                         <div className="text-wrapper-8">Daftar</div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
 
