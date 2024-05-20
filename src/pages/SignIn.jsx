@@ -22,13 +22,13 @@ export const SignIn = () => {
                         <div className="frame-3">
                             <div className="frame-wrapper">
                                 <div className="frame-4">
-                                    <img className="img" alt="Carbon email" src="carbon-email.svg" />
+                                    <img className="img" alt="" src="vector.png" />
                                     <div className="text-wrapper-3">Email</div>
                                 </div>
                             </div>
                             <div className="frame-wrapper">
                                 <div className="frame-4">
-                                    <img className="img" alt="Codicon lock" src="codicon_lock.svg" />
+                                    <img className="img" alt="" src="vector-a.png" />
                                     <div className="text-wrapper-3">Password</div>
                                 </div>
                             </div>
