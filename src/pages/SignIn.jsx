@@ -30,13 +30,13 @@ export const SignIn = () => {
                             <div className="frame-wrapper">
                                 <div className="frame-4">
                                     <img className="img" alt="" src="Vector.png" />
-                                    <div className="text-wrapper-3">Email</div>
+                                    <div className="text-wrapper-3"></div>
                                     <div>
                                     <input
                                     type="email"
+                                    placeholder="Email"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
-                                    required
                                         />
                                     </div>
                                 </div>
@@ -44,12 +44,13 @@ export const SignIn = () => {
                             <div className="frame-wrapper">
                                 <div className="frame-4">
                                     <img className="img" alt="" src="Vector-a.png" />
-                                    <div className="text-wrapper-3">Password</div>
+                                    <div className="text-wrapper-3"></div>
                                     <input 
-                                    type="text"
-                                    value={address}
+                                    type="password"
+                                    placeholder="Password"
+                                    value={password}
                                     onChange={(e) => setPassword(e.target.value)}
-                                    required
+                                    
                                     />
                                 </div>
                             </div>
@@ -59,7 +60,7 @@ export const SignIn = () => {
                                 <Checkbox property1="checkbox" propertyCheckboxClassName="checkbox-instance" />
                                 <div className="text-wrapper-4">Keep me logged in</div>
                             </div>
-                            <div className="text-wrapper-5">Forgot password</div>
+                            <button className="text-wrapper-5">Forgot password</button>
                         </div>
                     </div>
                     <div className="frame-7">
@@ -71,20 +72,20 @@ export const SignIn = () => {
                         <div className="frame-9">
                             <div className="frame-10">
                                 <img className="image" alt="Image" src="image-26.png"  />
-                                <div className="login-google">Login&nbsp;&nbsp;Google</div>
+                                <button className="login-google">Login&nbsp;&nbsp;Google</button>
                             </div>
                             <div className="frame-10">
                                 <Facebook className="img" alt="Image" src="Facebook.png"/>
-                                <div className="login-facebook">Login&nbsp;&nbsp;Facebook</div>
+                                <button className="login-facebook">Login&nbsp;&nbsp;Facebook</button>
                             </div>
                         </div>
                         <div className="div-wrapper">
-                            <div className="text-wrapper-7">Masuk</div>
+                            <button type="submit" className="text-wrapper-7">Masuk</button>
                         </div>
                     </div>
                     <div className="frame-11">
                         <div className="text-wrapper-4">Belum punya akun?</div>
-                        <div className="text-wrapper-8">Daftar</div>
+                        <button className="text-wrapper-8">Daftar</button>
                     </div>
                 </form>
             </div>

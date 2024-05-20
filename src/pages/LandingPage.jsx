@@ -70,7 +70,7 @@ export const LandingPage = () => {
         <div>
           <h1 className='text-[40px] font-bold'>Mitra Kerjasama</h1>
         </div>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-4'>
+        <button className='grid sm:grid-cols-2 lg:grid-cols-4'>
           <div className='flex flex-col items-center gap-4'>
             <img
               src='/public/logo.svg'
@@ -103,7 +103,7 @@ export const LandingPage = () => {
             />
             <p className='text-[25px] font-bold'>PT. Digital Foods</p>
           </div>
-        </div>
+        </button>
       </div>
 
       <div className='my-20 text-center justify-center mx-20'>

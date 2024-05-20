@@ -105,17 +105,17 @@ export const Signup = () => {
                         <div className="frame-7">
                             <p className="sudah-memiliki-akun">
                                 <span className="text-wrapper-8">Sudah memiliki akun? </span>
-                                <span className="text-wrapper-9"> Masuk Sekarang</span>
+                                <button className="text-wrapper-9"> Masuk Sekarang</button>
                             </p>
                         </div>
                     </form>
                     <div className="frame-12">
                         <img className="image" alt="Image" src="image-26.png" />
-                        <div className="login-google-2">Login&nbsp;&nbsp;Google</div>
+                        <button className="login-google-2">Login&nbsp;&nbsp;Google</button>
                     </div>
                     <div className="frame-13">
                         <Facebook className="image" alt="Image" src="Facebook.png"/>
-                        <div className="login-facebook-2">Login&nbsp;&nbsp;Facebook</div>
+                        <button className="login-facebook-2">Login&nbsp;&nbsp;Facebook</button>
                     </div>
                 </div>
             </div>
