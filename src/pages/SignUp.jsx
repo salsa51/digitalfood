@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { Facebook } from "../components/Facebook";
-import { Facebook24Outline } from "../components/Facebook24Outline";
-import { Google24Outline } from "../components/Google24Outline";
 import '../styles/signup.css';
 
 export const Signup = () => {
@@ -33,20 +31,11 @@ export const Signup = () => {
                         </div>
                         <br/>
                         <div className="frame-3">
-                            <div className="text-wrapper-2">Daftar dengan menggunakan:</div>
-                            
+                            <div className="text-wrapper-2">Daftar dengan menggunakan</div>
+                            <br />
             
                             <br/>
-                            <div className="frame-4">
-                                <div className="frame-5">
-                                    <Google24Outline className="icon-instance-node" />
-                                    <div className="">Login&nbsp;&nbsp;Google</div>
-                                </div>
-                                <div className="frame-5">
-                                    <Facebook24Outline className="icon-instance-node" />
-                                    <div className="">Login&nbsp;&nbsp;Facebook</div>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div className="frame-6">
                             <div className="frame-7">
