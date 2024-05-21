@@ -15,11 +15,14 @@ export const MarketPlace = () => {
                 <div className="content">
                   <div className="left-part">
                     <div className="text">Search...</div>
+                    <img className="keranjang" alt="keranjang" src="keranjang.svg" />
+                    
                   </div>
+                  <img className="chat" alt="chat" src="chat.svg" />
                 </div>
               </div>
             </div>
-
+            
             <img className="vector" alt="Vector" src="Vector-m.svg" />
             <p className="hi-parto">
               <span className="span">Hi,</span>
@@ -176,7 +179,7 @@ export const MarketPlace = () => {
                 />
               <FrameWrapper
                 className="frame-557"
-                src="kentang.svg"
+                src="kentan.svg"
               />
             </div>
             </div>

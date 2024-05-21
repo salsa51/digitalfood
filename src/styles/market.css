@@ -107,10 +107,18 @@
     width: 24px !important;
   }
   
-  .market-place-semua .icon-cart-outline {
-    height: 32px !important;
-    position: relative !important;
-    width: 32px !important;
+  .market-place-semua .keranjang {
+    height: 33px;
+    left: 630px;
+    position: absolute;
+    width: 33px;
+  }
+
+  .market-place-semua .chat {
+    height: 33px;
+    left: 690px;
+    position: absolute;
+    width: 33px;
   }
   
   .market-place-semua .vector {
