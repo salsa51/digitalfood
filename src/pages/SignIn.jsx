@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Checkbox } from '../components/Checkbox';
 import { Facebook } from '../components/Facebook';
 import '../styles/signin.css';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -14,13 +16,15 @@ export const SignIn = () => {
         console.log({ email, password });
     };
     return (
+    
         <div className="sign-in">
+            
             <div className="div">
                 <div className="overlap">
                     <img className="unsplash" alt="Unsplash" src="unsplash-4-jhdo54byg.png" />
                 </div>
                 <div className="overlap-group">
-                    <img className="img" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
+                    <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
                     <div className="text-wrapper">Digital Foods</div>
                 </div>
                 <form className="frame" onSubmit={handleSubmit}>
@@ -80,12 +84,12 @@ export const SignIn = () => {
                             </div>
                         </div>
                         <div className="div-wrapper">
-                            <button type="submit" className="text-wrapper-7">Masuk</button>
+                            <Link to="/" className="text-wrapper-7"> Masuk</Link>
                         </div>
                     </div>
                     <div className="frame-11">
                         <div className="text-wrapper-4">Belum punya akun?</div>
-                        <button className="text-wrapper-8">Daftar</button>
+                        <Link to="/SignUP" className="text-wrapper-8"> Daftar</Link>
                     </div>
                 </form>
             </div>

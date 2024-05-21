@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export const LandingPage = () => {
   const tahap = [
     {
@@ -25,6 +26,7 @@ export const LandingPage = () => {
   ];
 
   return (
+    
     <div className='font-archivo'>
       <div className='banner'>
         <img src='/public/banner.svg' alt='banner' className='w-full' />
@@ -65,7 +67,6 @@ export const LandingPage = () => {
           </button>
         </div>
       </div>
-
       <div className='flex flex-col items-center gap-10'>
         <div>
           <h1 className='text-[40px] font-bold'>Mitra Kerjasama</h1>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Facebook } from "../components/Facebook";
 import '../styles/signup.css';
+import { Link } from "react-router-dom";
+
 
 export const Signup = () => {
     const [email, setEmail] = useState("");
@@ -100,12 +102,13 @@ export const Signup = () => {
                             </p>
                         </div>
                         <div className="frame-11">
-                            <button type="submit" className="text-wrapper-7">Daftar</button>
+                            <Link to="/SignIn" className="text-wrapper-7"> Daftar</Link>
                         </div>
                         <div className="frame-7">
                             <p className="sudah-memiliki-akun">
                                 <span className="text-wrapper-8">Sudah memiliki akun? </span>
-                                <button className="text-wrapper-9"> Masuk Sekarang</button>
+            
+                                <Link to="/SignIn" className="text-wrapper-9"> Masuk Sekarang</Link>
                             </p>
                         </div>
                     </form>

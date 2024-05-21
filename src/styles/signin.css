@@ -37,11 +37,13 @@
     position: absolute;
     top: 0;
     width: 279px;
+    display: flex;
+    align-items: center;
   }
   
   .sign-in .whatsapp-image {
     height: 132px;
-    left: 0;
+    left: 29px;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -53,7 +55,7 @@
     font-family: "Poppins-Bold", Helvetica;
     font-size: 24px;
     font-weight: 700;
-    left: 113px;
+    left: 142px;
     letter-spacing: 0.48px;
     line-height: 20px;
     position: absolute;

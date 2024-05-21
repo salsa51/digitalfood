@@ -8,21 +8,15 @@ const AppRouter = () => {
 
 
   return (
-    <NavLayout>
-       <SignIn/>
-  <SignUp/>
-<Routes>
- 
-  <Route path='/' element={<LandingPage />} />
-</Routes>
-
-</NavLayout>
-    
+    <Routes>
+      <Route path='/' element={<NavLayout><LandingPage /></NavLayout>} />      
+      <Route path='SignIn' element={<SignIn />} />
+      <Route path='SignUp' element={<SignUp />} />
+    </Routes>
 
   );
 };
 export default AppRouter;
-
 
 
 

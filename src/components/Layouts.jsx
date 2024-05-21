@@ -45,12 +45,8 @@ export const NavLayout = ({ children }) => {
             </Link>
           </div>
           <div className='flex items-center gap-4'>
-            <button className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px]'>
-              Masuk
-            </button>
-            <button className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px]'>
-              Daftar
-            </button>
+           <Link to="SignIn" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Masuk</Link>
+           <Link to="SignUp" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Daftar</Link>
           </div>
         </nav>
       </div>
