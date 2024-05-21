@@ -130,7 +130,7 @@ export const LandingPage = () => {
       </div>
 
       <div className='flex justify-center items-center pb-40'>
-        <div className='w-[800px] h-[240px] bg-[#93BE33] flex flex-col gap-6 justify-center items-center rounded-[10px]'>
+        <div className='w-[800px] h-[240px] bg-[#CACA66] flex flex-col gap-6 justify-center items-center rounded-[10px]'>
           <h1 className='text-[24px] font-medium'>
             Informasi lebih lanjut hubungi kontak kami
           </h1>

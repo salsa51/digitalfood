@@ -38,7 +38,7 @@ export const NavLayout = ({ children }) => {
               Kontak
             </Link>
             <Link
-              to={"/"}
+              to={"MarketPlace"}
               className='text-black text-lg transition-colors hover:underline hover:underline-offset-4'
             >
               Marketplace
