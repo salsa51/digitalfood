@@ -40,9 +40,8 @@ export const LandingPage = () => {
         >
           Membantu <br /> menemukan bahan <br /> untuk restoran anda
         </h1>
-        <button className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px]'>
-          Belanja Sekarang
-        </button>
+        <Link to="MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px]'>
+          Belanja Sekarang </Link>
       </div>
 
       <div className='sm:my-10 md:mt-20 lg:my-40 w-full h-[440px] bg-[#FFE0B5] shadow-large-top-bottom'>
