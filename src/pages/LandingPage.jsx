@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 export const LandingPage = () => {
   const tahap = [
@@ -40,7 +40,7 @@ export const LandingPage = () => {
         >
           Membantu <br /> menemukan bahan <br /> untuk restoran anda
         </h1>
-        <Link to="MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px]'>
+        <Link to="/MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px]'>
           Belanja Sekarang </Link>
       </div>
 
