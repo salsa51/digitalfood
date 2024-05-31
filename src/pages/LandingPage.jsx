@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const LandingPage = () => {
+ 
   const tahap = [
     {
       img: "/public/tahap1.svg",
@@ -24,6 +25,8 @@ export const LandingPage = () => {
       desc: "Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta feugiat ",
     },
   ];
+
+
 
   return (
     
