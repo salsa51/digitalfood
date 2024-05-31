@@ -23,6 +23,7 @@ export const Signup = () => {
         <div className="sign-up-pengelolah">
             <div className="div">
                 <div className="overlap">
+                <img className="unsplash" alt="Unsplash" src="unsplash-va1l1jrtm70.png" />
                     <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
                     <div className="text-wrapper">Digital Foods</div>
                 </div>
