@@ -13,7 +13,7 @@ const AppRouter = () => {
       <Route path='/' element={<NavLayout><LandingPage /></NavLayout>} />      
       <Route path='SignIn' element={<SignIn />} />
       <Route path='SignUp' element={<SignUp />} />
-      <Route path='MarketPlace' element={<NavLayout><MarketPlace /></NavLayout>} />  
+      <Route path='MarketPlace' element={<MarketPlace />} />  
     </Routes>
 
   );
