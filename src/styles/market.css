@@ -29,6 +29,7 @@
     position: absolute;
     top: 0;
     width: 1440px;
+    justify-content: space-between;
   }
   
   .market-place-semua .frame-10 {
@@ -44,6 +45,9 @@
     height: 44px;
     position: relative;
     width: 164px;
+    line-height: 20px;
+    top: 28px;
+    white-space: nowrap;
   }
   
   .market-place-semua .frame-11 {
@@ -318,12 +322,13 @@
   }
   
   .market-place-semua .whatsapp-image {
-    height: 91px;
+    height: 75px;
     left: 7px;
     object-fit: cover;
     position: absolute;
     top: 0;
-    width: 109px;
+    width: 100px;
+  
   }
   
   .market-place-semua .text-wrapper-13 {
@@ -452,11 +457,6 @@
     flex: 0 0 auto !important;
   }
   
-  .market-place-semua .frame-instance {
-    background-color: unset !important;
-    object-fit: cover !important;
-  }
-  
   .market-place-semua .design-component-instance-node {
     background-color: unset !important;
   }
@@ -476,25 +476,29 @@
     left: 111px;
     position: absolute;
     top: 1164px;
+
+    
+
   }
 
   
   .market-place-semua .frame-23 {
     align-items: center;
-    box-shadow: 4px 4px 8px #00000040;
+    
     display: inline-flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 50px;
     left: 112px;
     position: absolute;
     top: 1714px;
   }
+ 
   
   .market-place-semua .frame-24 {
     align-items: center;
     display: inline-flex;
     flex: 0 0 auto;
-    gap: 32px;    
+    gap: 50px;    
     justify-content: center;
     position: relative;
   }
@@ -502,10 +506,18 @@
   .market-place-semua .frame-25 {
     align-items: center;
     border-radius: 16px;
-    box-shadow: 4px 4px 8px #00000040;
     display: inline-flex;
     flex: 0 0 auto;
-    gap: 32px;   
+    gap: 50px;   
+    justify-content: center;
+    position: relative;
+  }
+  .market-place-semua .frame-26 {
+    align-items: center;
+    border-radius: 16px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 50px;   
     justify-content: center;
     position: relative;
   }

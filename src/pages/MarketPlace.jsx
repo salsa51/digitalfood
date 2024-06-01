@@ -59,10 +59,16 @@ export const MarketPlace = () => {
               <div className="text-wrapper-12">Semua</div>
             </div>
           </div>
-          <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
-          <div className="text-wrapper-13">Digital Foods</div>
+
+          <a href="/">
+    <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
+</a>
+<div className="text-wrapper-13">Digital Foods</div>
+
         </div>
         
+        
+
         <p className="text-wrapper-14">
           Lorem ipsum dolor sit amet consectetur. Et id viverra non dolor. Sed adipiscing nulla et sed. In sit
           adipiscing id congue eros posuere semper odio orci. Maecenas blandit id viverra varius tellus. Amet enim
@@ -105,7 +111,7 @@ export const MarketPlace = () => {
             </div>
             </div>
 
-            <div className="frame-21">
+            <div className="frame-26">
               <Frame
                 className="frame-557"
                 src="pepaya.svg"
