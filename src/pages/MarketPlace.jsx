@@ -1,6 +1,5 @@
 import React from 'react';
 import { Frame } from '../components/Frame';
-import { FrameWrapper } from '../components/FrameWrapper';
 import '../styles/market.css';
 
 export const MarketPlace = () => {
@@ -8,7 +7,7 @@ export const MarketPlace = () => {
     <div className="market-place-semua">
       <div className="div-8">
         <div className="overlap">
-          <div className="navbar-marketplace">
+          <div className="navbar-marketplace" >
             <div className="frame-10">
               <div className="logoipsum" />
               <div className="frame-11">
@@ -87,23 +86,23 @@ export const MarketPlace = () => {
         <div className="frame-20">
           <div className="frame-21">
           <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="bayam.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="pakchoi.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="kentang.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="bawang.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="tomat.svg"
             />
           </div>
@@ -112,7 +111,7 @@ export const MarketPlace = () => {
           <div className="frame-22">
           <div className="frame-21">
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="paprika.svg"
             />
             <Frame
@@ -120,15 +119,15 @@ export const MarketPlace = () => {
               src="jahe.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="seledri.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="cabai.svg"
             />
             <Frame
-              className="frame-535"
+              className="frame-535-instance"
               src="pisang.svg"
              />
              </div>
@@ -137,23 +136,23 @@ export const MarketPlace = () => {
           <div className="frame-23">
           <div className="frame-24">
             <div className="frame-25">
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="selada.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="brokoli.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="mentimun.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="labu.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="kubis.svg"
               />
@@ -161,23 +160,23 @@ export const MarketPlace = () => {
             </div>
 
             <div className="frame-21">
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="pepaya.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="kol.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="artichoke.svg"
               />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="sawi.svg"
                 />
-              <FrameWrapper
+              <Frame
                 className="frame-557"
                 src="kentan.svg"
               />
