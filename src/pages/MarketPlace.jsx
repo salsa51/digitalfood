@@ -79,60 +79,6 @@ export const MarketPlace = () => {
           <img className="unsplash" alt="Unsplash" src="unsplash_-YHSwy6uqvk.png" />
         </div>
         <div className="chiller-frozen">Chiller &amp; frozen</div>
-        <div className="text-wrapper-15">Buah-buahan dan sayuran</div>
-        <div className="text-wrapper-16">Barang Chiller</div>
-
-
-        <div className="frame-20">
-          <div className="frame-21">
-          <Frame
-              className="frame-535-instance"
-              src="bayam.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="pakchoi.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="kentang.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="bawang.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="tomat.svg"
-            />
-          </div>
-          </div>
-
-          <div className="frame-22">
-          <div className="frame-21">
-            <Frame
-              className="frame-535-instance"
-              src="paprika.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="jahe.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="seledri.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="cabai.svg"
-            />
-            <Frame
-              className="frame-535-instance"
-              src="pisang.svg"
-             />
-             </div>
-          </div>
-
           <div className="frame-23">
           <div className="frame-24">
             <div className="frame-25">
@@ -182,6 +128,61 @@ export const MarketPlace = () => {
               />
             </div>
             </div>
+        <div className="text-wrapper-15">Buah-buahan dan sayuran</div>
+        <div className="frame-20">
+          <div className="frame-21">
+          <Frame
+              className="frame-535-instance"
+              src="bayam.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="pakchoi.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="kentang.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="bawang.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="tomat.svg"
+            />
+          </div>
+          </div>
+
+         
+        <div className="text-wrapper-16">Barang Chiller</div>
+
+        <div className="frame-22">
+          <div className="frame-21">
+            <Frame
+              className="frame-535-instance"
+              src="paprika.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="jahe.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="seledri.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="cabai.svg"
+            />
+            <Frame
+              className="frame-535-instance"
+              src="pisang.svg"
+             />
+             </div>
+          </div>
+
+        
 
         </div>
       </div>
