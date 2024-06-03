@@ -43,7 +43,7 @@ export const LandingPage = () => {
         >
           Membantu <br /> menemukan bahan <br /> untuk restoran anda
         </h1>
-        <Link to="/MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px]'>
+        <Link to="/MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px] flex justify-center items-center'>
           Belanja Sekarang </Link>
       </div>
 

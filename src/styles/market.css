@@ -197,7 +197,7 @@
   
   .market-place-semua .frame-14 {
     align-items: center;
-    background-color: #030303;
+    background-color: #FFF2D7;
     border: 1px solid;
     border-color: #000000;
     border-radius: 5px;
@@ -211,7 +211,7 @@
   }
   
   .market-place-semua .text-wrapper-9 {
-    color: #ffffff;
+    color: #000000;
     font-family: "Archivo-Medium", Helvetica;
     font-size: 16px;
     font-weight: 500;
@@ -226,7 +226,7 @@
   
   .market-place-semua .frame-15 {
     align-items: center;
-    background-color: #ffffff;
+    background-color: #FFF2D7;
     border: 1px solid;
     border-color: #000000;
     border-radius: 5px;
@@ -484,13 +484,13 @@
   
   .market-place-semua .frame-23 {
     align-items: center;
-    
     display: inline-flex;
     flex-direction: column;
     gap: 50px;
     left: 112px;
     position: absolute;
     top: 1714px;
+
   }
  
   
@@ -528,11 +528,7 @@
     box-shadow: 4px 4px 8px #00000040 !important;
     flex: 0 0 auto !important;
   }
-  
-  .market-place-semua .frame-557-instance {
-    border-radius: 16px !important;
-    box-shadow: 4px 4px 8px #00000040 !important;
-  }
+
   
   .market-place-semua .group {
     height: 419px;
