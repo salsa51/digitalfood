@@ -1,18 +1,22 @@
 import React from "react";
-import { IoIosMenu } from "react-icons/io";
+// import { IoIosMenu } from "react-icons/io"; 
 import { CiSearch } from "react-icons/ci";
 import { TbAlertTriangleFilled } from "react-icons/tb";
 import { TiArrowForward } from "react-icons/ti";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbSend2 } from "react-icons/tb";
+import { IoChevronBack } from "react-icons/io5";
+
 import { ImBin2 } from "react-icons/im";
 
-
+// import { useNavigate } from 'react-router-dom';
+// import { Link } from "react-router-dom";
 import '../styles/chatbotsidecol.css';
 
 
 export const ChatbotSidecol = () => {
+  // const navigate = useNavigate();
   return (
     <div className="chatbot-sidecol">
       <div className="div">
@@ -28,10 +32,21 @@ export const ChatbotSidecol = () => {
             <div className="image-wrapper">
               <img className="image" alt="Image" src="parto.png" />
             </div>
-            <div className="outline-essentional-wrapper">
-            <IoIosMenu className="outline-essentional" color="#F5F5F5"/>
+            {/* <div className="outline-essentional-wrapper">
            
+            <Link to="/" className="outline-essentional ">
+           <IoIosMenu color="#010101"/>
+            </Link>
+
+           
+            </div> */}
+<a href="/">
+            <div className="">
+              <img className="outline-essentional" alt="Outline essentional" src="menu.png" 
+              //  onClick={() => navigate('/marketplace')}
+              />
             </div>
+            </a>
           </div>
         </div>
         <div className="outer">
@@ -76,7 +91,7 @@ export const ChatbotSidecol = () => {
         </div> 
         <TbAlertTriangleFilled className="bold-duotone-2 flex justify-center items-center" color="#FF3900"/>
         <ImBin2  className="bold-duotone flex justify-center items-center" color="#082567"/>
-        
+        <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>

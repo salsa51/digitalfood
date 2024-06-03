@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { useNavigate } from 'react-router-dom';
 export const LandingPage = () => {
- 
+  const navigate = useNavigate();
   const tahap = [
     {
       img: "/public/tahap1.svg",
@@ -40,11 +40,15 @@ export const LandingPage = () => {
           style={{
             textShadow: `-1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF`,
           }}
-        >
+        > 
           Membantu <br /> menemukan bahan <br /> untuk restoran anda
         </h1>
-        <Link to="/MarketPlace" className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px] flex justify-center items-center'>
-          Belanja Sekarang </Link>
+        <button
+           className='w-[190px] h-[44px] text-[16px] font-normal text-white bg-black rounded-[5px] flex justify-center items-center'
+          onClick={() => navigate('/marketplace')}
+        >
+          Belanja Sekarang
+        </button>
       </div>
 
       <div className='sm:my-10 md:mt-20 lg:my-40 w-full h-[440px] bg-[#FFE0B5] shadow-large-top-bottom'>
