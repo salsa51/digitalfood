@@ -1,5 +1,6 @@
 import React from "react";
-import "./styles.chatbotsidecol.css";
+import '../styles/chatbotsidecol.css';
+
 
 export const ChatbotSidecol = () => {
   return (

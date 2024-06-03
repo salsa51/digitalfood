@@ -19,7 +19,9 @@ export const MarketPlace = () => {
                     <img className="keranjang" alt="keranjang" src="keranjang.svg" />
                     
                   </div>
+                  <a href="ChatbotSidecol">
                   <img className="chat" alt="chat" src="chat.svg" />
+                  </a>
                 </div>
               </div>
             </div>
