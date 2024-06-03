@@ -114,8 +114,8 @@
   }
   
   .chatbot-sidecol .outline-essentional {
-    height: 64px;
-    left: 9px;
+    height: 58px;
+    left: 7px;
     position: absolute;
     top: 9px;
     width: 64px;
@@ -367,20 +367,13 @@
     border-radius: 10px;
     height: 40px;
     left: 258px;
+  gap: 50px;
     overflow: hidden;
     position: absolute;
     top: 861px;
     width: 40px;
   }
   
-  .chatbot-sidecol .image-3 {
-    height: 32px;
-    left: 4px;
-    object-fit: cover;
-    position: absolute;
-    top: 8px;
-    width: 33px;
-  }
   
   .chatbot-sidecol .outline-messages-2 {
     height: 30px;
@@ -407,10 +400,11 @@
   }
   
   .chatbot-sidecol .bold-duotone {
-    height: 64px;
+    height: 70px;
     left: 1330px;
     position: absolute;
     top: 16px;
+    align-items: center;
     width: 64px;
   }
   

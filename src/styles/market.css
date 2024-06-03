@@ -120,9 +120,11 @@
 
   .market-place-semua .chat {
     height: 33px;
-    left: 690px;
-    position: absolute;
+    left: 340px;
+    position: relative;
     width: 33px;
+    align-items: center;
+    justify-content: center;
   }
   
   .market-place-semua .vector {

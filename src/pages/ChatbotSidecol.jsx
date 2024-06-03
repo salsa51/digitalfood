@@ -1,4 +1,14 @@
 import React from "react";
+import { IoIosMenu } from "react-icons/io";
+import { CiSearch } from "react-icons/ci";
+import { TbAlertTriangleFilled } from "react-icons/tb";
+import { TiArrowForward } from "react-icons/ti";
+import { AiOutlinePaperClip } from "react-icons/ai";
+import { HiOutlineEmojiHappy } from "react-icons/hi";
+import { TbSend2 } from "react-icons/tb";
+import { ImBin2 } from "react-icons/im";
+
+
 import '../styles/chatbotsidecol.css';
 
 
@@ -8,8 +18,9 @@ export const ChatbotSidecol = () => {
       <div className="div">
         <div className="search">
           <div className="overlap-group">
+          <CiSearch className="img" color="#7E7E7E"/>
             <div className="text-wrapper">Search</div>
-            <img className="img" alt="Search" src="search-1.svg" />
+           
           </div>
         </div>
         <div className="sidebar">
@@ -18,18 +29,22 @@ export const ChatbotSidecol = () => {
               <img className="image" alt="Image" src="parto.png" />
             </div>
             <div className="outline-essentional-wrapper">
-              <img className="outline-essentional" alt="Outline essentional" src="hamburger-menu.png" />
+            <IoIosMenu className="outline-essentional" color="#F5F5F5"/>
+           
             </div>
           </div>
         </div>
         <div className="outer">
           <div className="main-message-box">
             <div className="overlap-group-2">
-              <p className="body">Type a new message here</p>
-              <img className="emojis" alt="Emojis" src="emojis.png" />
-              <img className="outline-messages" alt="Outline messages" src="paperclip.png" />
+              <p className="body">Type a new message here</p> 
+        
+              < HiOutlineEmojiHappy  className="emojis flex justify-center items-center" color="#02040F"/>
+              <AiOutlinePaperClip  className="outline-messages flex justify-center items-center" color="#02040F"/>
+              
             </div>
-            <img className="send" alt="Send" src="send.png" />
+            <TbSend2  className="send flex justify-center items-center" color="#02040F"/>
+          
           </div>
         </div>
         <div className="overlap-wrapper">
@@ -45,10 +60,10 @@ export const ChatbotSidecol = () => {
           </div>
         </div>
         <div className="img-wrapper">
-          <img className="image-2" alt="Image" src="image.png" />
+          <img className="image-2 " alt="Image" src="parto.png" />
         </div>
         <div className="frame-2">
-          <img className="image-2" alt="Image" src="kartun.png" />
+          <img className="image-2 " alt="Image" src="parto.png" />
         </div>
         <div className="div-wrapper">
           <div className="overlap-3">
@@ -57,15 +72,17 @@ export const ChatbotSidecol = () => {
           </div>
         </div>
         <div className="frame-3">
-          <img className="image-3" alt="Image" src="image-11-3.png" />
-        </div>
-        <img className="outline-messages-2" alt="Outline messages" src="square-forward.png" />
-        <img className="outline-messages-3" alt="Outline messages" src="square-forward-2.png" />
-        <img className="outline-messages-4" alt="Outline messages" src="square-forward-3.png" />
-        <img className="bold-duotone" alt="Bold duotone" src="trash-bin-2.png" />
-        <img className="bold-duotone-2" alt="Bold duotone" src="danger-triangle.png" />
+          <img className="image-3 flex justify-center items-center " alt="Image" src="kartun.png" />
+        </div> 
+        <TbAlertTriangleFilled className="bold-duotone-2 flex justify-center items-center" color="#FF3900"/>
+        <ImBin2  className="bold-duotone flex justify-center items-center" color="#082567"/>
+        
+        <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
+        <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
+        <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
       </div>
     </div>
   );
 };
 
+export default ChatbotSidecol
