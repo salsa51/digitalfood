@@ -3,31 +3,6 @@ import { Frame } from '../components/Frame';
 import '../styles/market.css';
 
 export const MarketPlace = () => {
-
-  const tahap = [
-    {
-      img: "/public/selada.svg",
-    },
-    {
-      img: "/public/brokoli.svg",
-      
-    },
-    {
-      img: "/public/mentimun.svg",
-     
-    },
-    {
-      img: "/public/labu.svg",
-      
-    },
-    {
-      img: "/public/kubis.svg",
-    },
-  ];
-
-
-
-
   return (
     <div className="market-place-semua">
       <div className="div-8">
@@ -112,12 +87,28 @@ export const MarketPlace = () => {
         <div className="chiller-frozen">Chiller &amp; frozen</div>
           <div className="frame-23">
           <div className="frame-24">
-          {tahap.map((item, index) => (
-            <div>
-              <img src={item.img} />
-          
+            <div className="frame-25">
+              <Frame
+                className="frame-557"
+                src="selada.svg"
+              />
+              <Frame
+                className="frame-557"
+                src="brokoli.svg"
+              />
+              <Frame
+                className="frame-557"
+                src="mentimun.svg"
+              />
+              <Frame
+                className="frame-557"
+                src="labu.svg"
+              />
+              <Frame
+                className="frame-557"
+                src="kubis.svg"
+              />
             </div>
-          ))}
             </div>
 
             <div className="frame-26">
