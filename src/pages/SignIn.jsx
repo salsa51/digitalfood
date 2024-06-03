@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Checkbox } from '../components/Checkbox';
-import { Facebook } from '../components/Facebook';
+import { MdFacebook } from "react-icons/md";
 import '../styles/signin.css';
 import { Link } from "react-router-dom";
 
@@ -76,11 +76,12 @@ export const SignIn = () => {
                         </div>
                         <div className="frame-9">
                             <div className="frame-10">
+
                                 <img className="image" alt="Image" src="image-26.png"  />
                                 <button className="login-google">Login&nbsp;&nbsp;Google</button>
                             </div>
                             <div className="frame-10">
-                                <Facebook className="img" alt="Image" src="Facebook.png"/>
+                                <MdFacebook className="img" alt="Image" color="#3B5998"/>
                                 <button className="login-facebook">Login&nbsp;&nbsp;Facebook</button>
                             </div>
                         </div>

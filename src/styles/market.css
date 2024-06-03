@@ -259,6 +259,7 @@
     flex: 0 0 auto;
     gap: 16px;
     position: relative;
+    
   }
   
   .market-place-semua .frame-17 {
@@ -269,14 +270,17 @@
     gap: 10px;
     padding: 12px 10px;
     position: relative;
+  margin-bottom: 3px;
   }
   
   .market-place-semua .frame-18 {
     align-items: center;
-    display: inline-flex;
+  
     flex: 0 0 auto;
     gap: 12px;
     position: relative;
+    display: flex;
+  
   }
   
   .market-place-semua .text-wrapper-11 {

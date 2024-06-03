@@ -105,16 +105,17 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 10px;
+    padding: 0px 10px;
     position: relative;
 }
 
 .sign-up-pengelolah .text-wrapper-2 {
     color: #000000;
     font-family: "Roboto-Regular", Helvetica;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 15px;
+    font-weight: 410;
     letter-spacing: 0;
-    line-height: 12px;
+    line-height: 7px;
     margin-top: -1px;
     position: relative;
     text-align: center;
@@ -179,6 +180,7 @@
     flex: 0 0 auto;
     flex-direction: column;
     gap: 5px;
+    padding: 5px 0px;
     position: relative;
 }
 
@@ -228,6 +230,7 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+
 }
 
 .sign-up-pengelolah .frame-wrapper {
@@ -264,7 +267,7 @@
 .sign-up-pengelolah .frame-9 {
     align-items: flex-start;
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     gap: 10px;
     height: 149px;
@@ -281,7 +284,7 @@
     font-weight: var(--caption-font-weight);
     letter-spacing: var(--caption-letter-spacing);
     line-height: var(--caption-line-height);
-    margin-top: -1px;
+    
     position: relative;
     white-space: nowrap;
     width: fit-content;

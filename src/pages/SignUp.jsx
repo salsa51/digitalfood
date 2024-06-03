@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Facebook } from "../components/Facebook";
+import { MdFacebook } from "react-icons/md";
 import '../styles/signup.css';
 import { Link } from "react-router-dom";
 
 
-export const Signup = () => {
+export const SignUp = () => {
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");
     const [password, setPassword] = useState("");
@@ -61,7 +61,7 @@ export const Signup = () => {
                                             <input 
                                                 type="text"
                                                 className="text-wrapper-6"
-                                                placeholder="Masukan nama dan nomor jalan, gedung atau ruko"
+                                                placeholder="Masukan alamat lengkap"
                                                 value={address}
                                                 onChange={(e) => setAddress(e.target.value)}
                                             />
@@ -118,7 +118,7 @@ export const Signup = () => {
                         <button className="login-google-2">Login&nbsp;&nbsp;Google</button>
                     </div>
                     <div className="frame-13">
-                        <Facebook className="image" alt="Image" src="Facebook.png"/>
+                        <MdFacebook className="image" alt="Image" color="#3B5998"/>
                         <button className="login-facebook-2">Login&nbsp;&nbsp;Facebook</button>
                     </div>
                 </div>
@@ -127,4 +127,4 @@ export const Signup = () => {
     );
 };
 
-export default Signup;
+export default SignUp;

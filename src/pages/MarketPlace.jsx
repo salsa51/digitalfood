@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoList } from "react-icons/io5";
+import { GrLocation } from "react-icons/gr";
 import { Frame } from '../components/Frame';
 import '../styles/market.css';
 
@@ -45,23 +46,23 @@ export const MarketPlace = () => {
                   <div className="frame-16">
                     <div className="frame-17">
                       <div className="frame-18">
-                      <IoList style={{ marginRight: '8px' }} /> {io5/IoList}
+                      <IoList style={{ marginRight: '1px' }} />
                         <div className="text-wrapper-11">Kategori</div>
                       </div>
                     </div>
                     <div className="frame-17">
                       <div className="frame-18">
-                      
+                      <GrLocation style={{ marginRight: '1px' }} />
                         <div className="text-wrapper-11">Lokasi</div>
                       </div>
                     </div>
                   </div>
                   
-                  <img className="line" alt="Line" src="line-6.svg" />
+               
                 </div>
-                <img className="line-2" alt="Line" src="line-1.svg" />
+                
               </div>
-              <div className="text-wrapper-12">Semua</div>
+              
             </div>
           </div>
 
