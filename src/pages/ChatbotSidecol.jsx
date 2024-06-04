@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from "react";
 // import { IoIosMenu } from "react-icons/io"; 
 import { CiSearch } from "react-icons/ci";
 import { TbAlertTriangleFilled } from "react-icons/tb";
@@ -15,11 +15,7 @@ import '../styles/chatbotsidecol.css';
 
 
 export const ChatbotSidecol = () => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-
-  const toggleSidebar = () => {
-    setSidebarOpen(!sidebarOpen);
-  };
+  
   return (
     <div className="chatbot-sidecol">
       <div className="div">
@@ -44,53 +40,16 @@ export const ChatbotSidecol = () => {
            
             </div> */}
 <a href="Chatbot">
-            <div className="outline-essentional-wrapper">
-              <img className="outline-essentional" alt="Outline essentional" src="menu.png" onClick={toggleSidebar}
+            <div className="">
+              <img className="outline-essentional" alt="Outline essentional" src="menu.png" 
               //  onClick={() => navigate('/marketplace')}
               />
             </div>
             </a>
 
-            {sidebarOpen && (
-        <div className="sidebar-sidebar">
-          <div className="frame-frame">
-            <div className="frame-2-2">
-              <img className="bold-duotone-bold" alt="Bold duotone" src="add-square.png" />
-              <div className="text-wrapper-text">New Chat</div>
-            </div>
-            <div className="frame-3-3">
-              <img className="bold-duotone-arrows-bold" alt="Bold duotone arrows" src="round-alt-arrow-down.png" />
-              <div className="text-wrapper-2-2">Recent Chats</div>
-            </div>
-            <div className="div-wrapper-div">
-              <div className="text-wrapper-3-3">Rephrase text...</div>
-            </div>
-            <div className="frame-4-4">
-              <div className="text-wrapper-4-4">Fix this code ne...</div>
-            </div>
-            <div className="frame-5-5">
-              <div className="text-wrapper-3-3">Sample Copy for...</div>
-            </div>
-            <div className="frame-6-6">
-              <div className="image-wrapper-image">
-                <img className="image-image" alt="Image" src="parto.png" />
-              </div>
-              <div className="frame-7-7">
-                <div className="text-wrapper-5-5">Welcome back,</div>
-                <div className="text-wrapper-6-6">Parto</div>
-              </div>
-              <img className="arrow-down-down" alt="Arrow down" src="arrow-down-2.svg" />
-            </div>
-            <div className="outline-essentional-wrapper-outline">
-              <img className="outline-essentional-outline" alt="Outline essentional" src="hamburger-menu.png" />
-            </div>
-          </div>
-        </div>
-      )}
 
 
-
-
+            
           </div>
         </div>
         <div className="outer">

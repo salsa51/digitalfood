@@ -5,7 +5,7 @@ import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import MarketPlace from "../pages/MarketPlace";
 import ChatbotSidecol from "../pages/ChatbotSidecol";
-// import { Chatbot } from "../pages/Chatbot";
+import { Chatbot } from "../pages/Chatbot";
 
 const AppRouter = () => {
 
@@ -16,7 +16,7 @@ const AppRouter = () => {
       <Route path='SignIn' element={<SignIn />} />
       <Route path='SignUp' element={<SignUp />} />
       <Route path='ChatbotSidecol' element={<ChatbotSidecol />} />
-      {/* <Route path='Chatbot' element={<Chatbot />} /> */}
+      <Route path='Chatbot' element={<Chatbot />} />
       <Route path='MarketPlace' element={<MarketPlace />} />  
     </Routes>
   );
