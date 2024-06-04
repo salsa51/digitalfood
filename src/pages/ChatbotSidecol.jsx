@@ -7,7 +7,6 @@ import { AiOutlinePaperClip } from "react-icons/ai";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbSend2 } from "react-icons/tb";
 import { IoChevronBack } from "react-icons/io5";
-
 import { ImBin2 } from "react-icons/im";
 
 // import { useNavigate } from 'react-router-dom';
@@ -16,7 +15,11 @@ import '../styles/chatbotsidecol.css';
 
 
 export const ChatbotSidecol = () => {
-  // const navigate = useNavigate();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
   return (
     <div className="chatbot-sidecol">
       <div className="div">
@@ -40,13 +43,54 @@ export const ChatbotSidecol = () => {
 
            
             </div> */}
-<a href="/">
+<a href="Chatbot">
             <div className="">
-              <img className="outline-essentional" alt="Outline essentional" src="menu.png" 
+              <img className="outline-essentional" alt="Outline essentional" src="menu.png" onClick={toggleSidebar}
               //  onClick={() => navigate('/marketplace')}
               />
             </div>
             </a>
+
+            {sidebarOpen && (
+        <div className="sidebar">
+          <div className="frame">
+            <div className="frame-2">
+              <img className="bold-duotone" alt="Bold duotone" src="add-square.png" />
+              <div className="text-wrapper">New Chat</div>
+            </div>
+            <div className="frame-3">
+              <img className="bold-duotone-arrows" alt="Bold duotone arrows" src="round-alt-arrow-down.png" />
+              <div className="text-wrapper-2">Recent Chats</div>
+            </div>
+            <div className="div-wrapper">
+              <div className="text-wrapper-3">Rephrase text...</div>
+            </div>
+            <div className="frame-4">
+              <div className="text-wrapper-4">Fix this code ne...</div>
+            </div>
+            <div className="frame-5">
+              <div className="text-wrapper-3">Sample Copy for...</div>
+            </div>
+            <div className="frame-6">
+              <div className="image-wrapper">
+                <img className="image" alt="Image" src="parto.png" />
+              </div>
+              <div className="frame-7">
+                <div className="text-wrapper-5">Welcome back,</div>
+                <div className="text-wrapper-6">Parto</div>
+              </div>
+              <img className="arrow-down" alt="Arrow down" src="arrow-down-2.svg" />
+            </div>
+            <div className="outline-essentional-wrapper">
+              <img className="outline-essentional" alt="Outline essentional" src="hamburger-menu.png" />
+            </div>
+          </div>
+        </div>
+      )}
+
+
+
+
           </div>
         </div>
         <div className="outer">
