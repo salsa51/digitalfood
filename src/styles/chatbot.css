@@ -77,6 +77,7 @@
   .chatbot .bold-duotone-arrows {
     height: 63px;
     left: 243px;
+    color: #abaeade8;
     position: absolute;
     top: 8px;
     width: 61px;
@@ -611,7 +612,7 @@
     height: 45px;
     left: 14px;
     position: absolute;
-    top: 12px;
+    top: 35px;
     width: 45px;
   }
 
@@ -626,6 +627,7 @@
     left: 1360px;
     position: absolute;
     top: 27px;
+    
     align-items: center;
     width: 64px;
   }
@@ -645,16 +647,24 @@
   }
   
   .chatbot .bold-duotone-3 {
-    height: 64px;
+    /* height: 64px;
     left: 1259px;
     position: absolute;
     top: 28px;
-    width: 64px;
+    width: 64px; */
+
+     height: 61px;
+    left: 241px;
+    color: #abaeade8;
+    position: absolute;
+    top: 8px;
+    width: 61px; 
   }
-  .chatbot-sidecol .back {
+  .chatbot .back {
     height: 44px;
-    left: 235px;
+    left: 450px;
     position: absolute;
     top: 40px;
+    
     width: 68px;
     }

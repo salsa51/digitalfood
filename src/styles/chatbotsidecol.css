@@ -19,7 +19,7 @@
     left: 825px;
     
     position: absolute;
-    top: 16px;
+    top: 30px;
     width: 404px;
   }
   
@@ -421,7 +421,7 @@
     height: 64px;
     left: 1350px;
     position: absolute;
-    top: 15px;
+    top: 30px;
     align-items: center;
     width: 64px;
   }
@@ -430,12 +430,12 @@
     height: 64px;
     left: 1260px;
     position: absolute;
-    top: 18px;
+    top: 35px;
     width: 64px;
   }
   .chatbot-sidecol .back {
     height: 44px;
-    left: 235px;
+    left: 250px;
     position: absolute;
     top: 40px;
     

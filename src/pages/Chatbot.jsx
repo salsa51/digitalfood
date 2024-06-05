@@ -4,6 +4,9 @@ import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbAlertTriangleFilled } from "react-icons/tb";
 import { TiArrowForward } from "react-icons/ti";
 import { CiSearch } from "react-icons/ci";
+import { TbSquareRoundedChevronDownFilled } from "react-icons/tb";
+import { BiSolidMessageSquareAdd } from "react-icons/bi";
+import { IoIosArrowUp } from "react-icons/io";
 import { IoChevronBack } from "react-icons/io5";
 import { RiDeleteBin5Fill } from "react-icons/ri";
 
@@ -17,11 +20,11 @@ export const Chatbot = () => {
         <div className="sidebar">
           <div className="frame">
             <div className="frame-2">
-              <img className="bold-duotone" alt="Bold duotone" src="add-square.png" />
+              <BiSolidMessageSquareAdd className="bold-duotone-3" alt="Bold duotone" />
               <div className="text-wrapper">New Chat</div>
             </div>
             <div className="frame-3">
-              <img className="bold-duotone-arrows" alt="Bold duotone arrows" src="round-alt-arrow-down.png" />
+              <TbSquareRoundedChevronDownFilled className="bold-duotone-arrows" alt="Bold duotone arrows" />
               <div className="text-wrapper-2">Recent Chats</div>
             </div>
             <div className="div-wrapper">
@@ -41,11 +44,13 @@ export const Chatbot = () => {
                 <div className="text-wrapper-5">Welcome back,</div>
                 <div className="text-wrapper-6">Parto</div>
               </div>
-              <img className="arrow-down" alt="Arrow down" src="arrow-down-2.svg" />
+              <IoIosArrowUp className="arrow-down" alt="Arrow down" />
             </div>
+            
             <div className="outline-essentional-wrapper">
               <img className="outline-essentional" alt="Outline essentional" src="menu.png" />
             </div>
+            
           </div>
         </div>
         <div className="outer">
@@ -89,7 +94,9 @@ export const Chatbot = () => {
         <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
+        <a href="/ChatbotSidecol">
         <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
+        </a>
         <TbAlertTriangleFilled className="bold-duotone-2 flex " color="#FF3900"/>
         <RiDeleteBin5Fill  className="bold-duotone flex justify-center items-center" color="#082567"/>
         <div className="search">

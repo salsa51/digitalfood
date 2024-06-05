@@ -94,7 +94,9 @@ export const ChatbotSidecol = () => {
         </div> 
         <TbAlertTriangleFilled className="bold-duotone-2 flex justify-center items-center" color="#FF3900"/>
         <RiDeleteBin5Fill  className="bold-duotone flex justify-center items-center" color="#082567"/>
+        <a href="/MarketPlace">
         <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
+       </a>
         <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
