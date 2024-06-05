@@ -7,7 +7,7 @@ import MarketPlace from "../pages/MarketPlace";
 import ChatbotSidecol from "../pages/ChatbotSidecol";
 import Chatbot from "../pages/Chatbot";
 import TentangKami from "../pages/TentangKami";
-import  KontakKami  from "../pages/KontakKami";
+// import  KontakKami  from "../pages/KontakKami";
 
 const AppRouter = () => {
 
@@ -22,7 +22,7 @@ const AppRouter = () => {
       <Route path='/MarketPlace' element={<MarketPlace />} />  
       <Route path='/TentangKami' element={<NavLayout><TentangKami /></NavLayout>} />  
       {/* <Route path='/Kontakkami' element={<NavLayout><KontakKami /></NavLayout>} />  */}
-      <Route path='/KontakKami' element={<KontakKami />} />  
+      
     </Routes>
   );
 };
