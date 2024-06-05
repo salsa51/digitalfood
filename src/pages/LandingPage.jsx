@@ -70,7 +70,10 @@ export const LandingPage = () => {
               <p className='text-[24px] font-bold'>Bahan Terjual</p>
             </div>
           </div>
-          <button className='w-[161px] h-[44px] bg-[#1E564D] rounded-[5px] text-white text-[16px] font-normal mt-10'>
+          <button className='w-[161px] h-[44px] bg-[#1E564D] rounded-[5px] text-white text-[16px] font-normal mt-10'
+          onClick={() => navigate('/Tentangkami')}
+          >
+          
             Tentang Kami
           </button>
         </div>

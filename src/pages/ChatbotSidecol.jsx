@@ -68,7 +68,7 @@ export const ChatbotSidecol = () => {
         <div className="overlap-wrapper">
           <div className="overlap">
             <div className="border-bottom" />
-            <p className="p">Selamat siang, apakah ada sayur kol, kecap, cabai, yang exspor dari brazil kak?</p>
+            <p className="p">Selamat siang, apakah ada sayur kol, kentang dan cabai kak?</p>
           </div>
         </div>
         <div className="overlap-group-wrapper">

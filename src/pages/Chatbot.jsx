@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbAlertTriangleFilled } from "react-icons/tb";
-import { TiArrowForward } from "react-icons/ti";
+
 import { CiSearch } from "react-icons/ci";
 import { TbSquareRoundedChevronDownFilled } from "react-icons/tb";
 import { BiSolidMessageSquareAdd } from "react-icons/bi";
@@ -66,7 +66,7 @@ export const Chatbot = () => {
         <div className="overlap-wrapper">
           <div className="overlap">
             <div className="border-bottom" />
-            <p className="p">Selamat siang, apakah ada sayur kol, kecap, cabai, yang exspor dari brazil kak?</p>
+            <p className="p">Selamat siang, apakah ada sayur kol, kentang dan cabai kak?</p>
           </div>
         </div>
         <div className="overlap-group-wrapper">
@@ -91,9 +91,7 @@ export const Chatbot = () => {
           <img className="image-2" alt="Image" src="kartun.png" />
         </div>
         
-        <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
-        <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
-        <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
+        
         <a href="/ChatbotSidecol">
         <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
         </a>

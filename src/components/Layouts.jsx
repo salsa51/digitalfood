@@ -32,7 +32,7 @@ export const NavLayout = ({ children }) => {
               Tentang Kami
             </Link>
             <Link
-              to={"/KontakKami"}
+              to={""}
               className='text-black text-lg transition-colors hover:underline hover:underline-offset-4'
             >
               Kontak
