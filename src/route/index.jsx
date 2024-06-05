@@ -21,7 +21,8 @@ const AppRouter = () => {
       <Route path='/Chatbot' element={<Chatbot />} />
       <Route path='/MarketPlace' element={<MarketPlace />} />  
       <Route path='/TentangKami' element={<NavLayout><TentangKami /></NavLayout>} />  
-      <Route path='/Kontakkami' element={<NavLayout><KontakKami /></NavLayout>} /> 
+      {/* <Route path='/Kontakkami' element={<NavLayout><KontakKami /></NavLayout>} />  */}
+      <Route path='/KontakKami' element={<KontakKami />} />  
     </Routes>
   );
 };

@@ -1,4 +1,10 @@
 import React from "react";
+import { GrLocation } from "react-icons/gr";
+import { MdOutlineEmail } from "react-icons/md";
+import { PiWhatsappLogoLight } from "react-icons/pi";
+import { CiTwitter } from "react-icons/ci";
+import { GrFacebookOption } from "react-icons/gr";
+import { IoLogoInstagram } from "react-icons/io";
 import "../styles/kontak.css";
 
 export const KontakKami = () => {
@@ -22,18 +28,18 @@ export const KontakKami = () => {
                     <div className="text-wrapper-4">Kantor&nbsp;&nbsp;Digital Foods</div>
                     <div className="frame-5">
                       <div className="frame-7">
-                        <LocationPin24Outline className="icon-instance-node" />
+                        <GrLocation className="icon-instance-node" />
                         <p className="text-wrapper-5">
                           Jl. Raya Taman Tiara, Nggrekmas, Pagerwojo, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur
                           61219
                         </p>
                       </div>
                       <div className="frame-7">
-                        <img className="icon-instance-node" alt="Ph whatsapp logo" src="ph-whatsapp-logo-light.svg" />
+                        <PiWhatsappLogoLight className="icon-instance-node"  />
                         <div className="text-wrapper-6">111-222-333</div>
                       </div>
                       <div className="frame-7">
-                        <Message24Outline className="icon-instance-node" />
+                        <MdOutlineEmail className="icon-instance-node" />
                         <div className="text-wrapper-6">service@digitalfoods.com</div>
                       </div>
                     </div>
@@ -42,20 +48,20 @@ export const KontakKami = () => {
                     <div className="text-wrapper-4">Sosial Media</div>
                     <div className="frame-5">
                       <div className="frame-7">
-                        <img className="vector" alt="Vector" src="vector.svg" />
+                        <IoLogoInstagram className="vector" alt="Vector" />
                         <div className="text-wrapper-6">@digitalfoods</div>
                       </div>
                       <div className="frame-7">
-                        <img className="ph-twitter-logo" alt="Ph twitter logo" src="ph-twitter-logo-light.svg" />
+                        <CiTwitter  className="ph-twitter-logo" alt="Ph twitter logo" />
                         <div className="text-wrapper-7">@digitalfoods</div>
                       </div>
                       <div className="frame-7">
-                        <Facebook24Outline className="icon-instance-node" />
+                        <GrFacebookOption className="icon-instance-node" />
                         <div className="text-wrapper-8">digitalfoods</div>
                       </div>
                     </div>
                   </div>
-                  <img className="unsplash" alt="Unsplash" src="unsplash-l9naijlp354.png" />
+                  <img className="unsplash" alt="Unsplash" src="unsplash_l9NaijLp354.png" />
                 </div>
                 <img className="line" alt="Line" src="line-2.svg" />
                 <div className="frame-8">
@@ -95,9 +101,9 @@ export const KontakKami = () => {
                 hasButton={false}
                 logoipsum="2-2.svg"
               />
-              <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
+              <img className="whatsapp-image" alt="Whatsapp image" src="WhatsApp_Image.png" />
               <div className="text-wrapper-11">Digital Foods</div>
-              <img className="unsplash-jx" alt="Unsplash jx" src="unsplash-jx-07bo1jus.png" />
+              <img className="unsplash-jx" alt="Unsplash jx" src="unsplash_jX_07BO1jus.png" />
               <img className="img" alt="Vector" src="image.svg" />
               <p className="hi-parto">
                 <span className="span">Hi,</span>
@@ -112,5 +118,5 @@ export const KontakKami = () => {
   );
 };
 
-export default KontakKami
+export default KontakKami;
 
