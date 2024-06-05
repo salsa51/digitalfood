@@ -14,12 +14,13 @@ const AppRouter = () => {
   return (
     <Routes>
       <Route path='/' element={<NavLayout><LandingPage /></NavLayout>} />      
-      <Route path='SignIn' element={<SignIn />} />
-      <Route path='SignUp' element={<SignUp />} />
-      <Route path='ChatbotSidecol' element={<ChatbotSidecol />} />
-      <Route path='Chatbot' element={<Chatbot />} />
-      <Route path='MarketPlace' element={<MarketPlace />} />  
-      <Route path='TentangKami' element={<TentangKami />} />  
+      <Route path='/SignIn' element={<SignIn />} />
+      <Route path='/SignUp' element={<SignUp />} />
+      <Route path='/ChatbotSidecol' element={<ChatbotSidecol />} />
+      <Route path='/Chatbot' element={<Chatbot />} />
+      <Route path='/MarketPlace' element={<MarketPlace />} />  
+      <Route path='/TentangKami' element={<NavLayout><TentangKami /></NavLayout>} />  
+       
     </Routes>
   );
 };

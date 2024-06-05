@@ -36,11 +36,9 @@
   
   .chatbot-sidecol .text-wrapper {
     color: #666666;
-   
     font-family: "Poppins-Regular", Helvetica;
     font-size: 20.6px;
     font-weight: 300px;
-   
     display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +114,6 @@
     left: 0;
     position: absolute;
     top: 1px;
-    
     width: 82px;
   }
   
@@ -422,16 +419,16 @@
   
   .chatbot-sidecol .bold-duotone {
     height: 64px;
-    left: 1330px;
+    left: 1350px;
     position: absolute;
-    top: 16px;
+    top: 15px;
     align-items: center;
     width: 64px;
   }
   
   .chatbot-sidecol .bold-duotone-2 {
     height: 64px;
-    left: 1258px;
+    left: 1260px;
     position: absolute;
     top: 18px;
     width: 64px;

@@ -1,4 +1,13 @@
 import React from "react";
+import { AiOutlinePaperClip } from "react-icons/ai";
+import { HiOutlineEmojiHappy } from "react-icons/hi";
+import { TbAlertTriangleFilled } from "react-icons/tb";
+import { TiArrowForward } from "react-icons/ti";
+import { CiSearch } from "react-icons/ci";
+import { IoChevronBack } from "react-icons/io5";
+import { RiDeleteBin5Fill } from "react-icons/ri";
+
+import { TbSend2 } from "react-icons/tb";
 import "../styles/chatbot.css";
 
 export const Chatbot = () => {
@@ -26,7 +35,7 @@ export const Chatbot = () => {
             </div>
             <div className="frame-6">
               <div className="image-wrapper">
-                <img className="image" alt="Image" src="image-11.png" />
+                <img className="image" alt="Image" src="parto.png" />
               </div>
               <div className="frame-7">
                 <div className="text-wrapper-5">Welcome back,</div>
@@ -35,7 +44,7 @@ export const Chatbot = () => {
               <img className="arrow-down" alt="Arrow down" src="arrow-down-2.svg" />
             </div>
             <div className="outline-essentional-wrapper">
-              <img className="outline-essentional" alt="Outline essentional" src="hamburger-menu.png" />
+              <img className="outline-essentional" alt="Outline essentional" src="menu.png" />
             </div>
           </div>
         </div>
@@ -43,9 +52,9 @@ export const Chatbot = () => {
           <div className="main-message-box">
             <div className="overlap-group">
               <p className="body">Type a new message here</p>
-              <img className="send" alt="Send" src="send.png" />
-              <img className="emojis" alt="Emojis" src="emojis.png" />
-              <img className="outline-messages" alt="Outline messages" src="paperclip.png" />
+              < HiOutlineEmojiHappy  className="emojis flex justify-center items-center" color="#02040F"/>
+              <AiOutlinePaperClip  className="outline-messages flex justify-center items-center" color="#02040F"/>
+              <TbSend2  className="send flex justify-center items-center" color="#02040F"/>
             </div>
           </div>
         </div>
@@ -62,7 +71,7 @@ export const Chatbot = () => {
           </div>
         </div>
         <div className="img-wrapper">
-          <img className="img" alt="Image" src="image.png" />
+          <img className="img" alt="Image" src="parto.png" />
         </div>
         <div className="main-message-box-2">
           <div className="overlap-3">
@@ -71,22 +80,25 @@ export const Chatbot = () => {
           </div>
         </div>
         <div className="frame-8">
-          <img className="img" alt="Image" src="image-11-2.png" />
+          <img className="img" alt="Image" src="parto.png" />
         </div>
         <div className="frame-9">
-          <img className="image-2" alt="Image" src="image-11-3.png" />
+          <img className="image-2" alt="Image" src="kartun.png" />
         </div>
-        <img className="outline-messages-2" alt="Outline messages" src="square-forward.png" />
-        <img className="outline-messages-3" alt="Outline messages" src="square-forward-2.png" />
-        <img className="outline-messages-4" alt="Outline messages" src="square-forward-3.png" />
+        
+        <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
+        <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
+        <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
+        <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
+        <TbAlertTriangleFilled className="bold-duotone-2 flex " color="#FF3900"/>
+        <RiDeleteBin5Fill  className="bold-duotone flex justify-center items-center" color="#082567"/>
         <div className="search">
           <div className="overlap-4">
             <div className="text-wrapper-9">Search</div>
-            <img className="search-2" alt="Search" src="search-1.svg" />
+            <CiSearch className="img" color="#7E7E7E"/>
           </div>
         </div>
-        <img className="bold-duotone-2" alt="Bold duotone" src="trash-bin-2.png" />
-        <img className="bold-duotone-3" alt="Bold duotone" src="danger-triangle.png" />
+        
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import { AiOutlinePaperClip } from "react-icons/ai";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbSend2 } from "react-icons/tb";
 import { IoChevronBack } from "react-icons/io5";
-import { ImBin2 } from "react-icons/im";
+import { RiDeleteBin5Fill } from "react-icons/ri";
 
 // import { useNavigate } from 'react-router-dom';
 // import { Link } from "react-router-dom";
@@ -39,7 +39,7 @@ export const ChatbotSidecol = () => {
 
            
             </div> */}
-<a href="Chatbot">
+<a href="/Chatbot">
             <div className="">
               <img className="outline-essentional" alt="Outline essentional" src="menu.png" 
               //  onClick={() => navigate('/marketplace')}
@@ -93,7 +93,7 @@ export const ChatbotSidecol = () => {
           <img className="image-3 flex justify-center items-center " alt="Image" src="kartun.png" />
         </div> 
         <TbAlertTriangleFilled className="bold-duotone-2 flex justify-center items-center" color="#FF3900"/>
-        <ImBin2  className="bold-duotone flex justify-center items-center" color="#082567"/>
+        <RiDeleteBin5Fill  className="bold-duotone flex justify-center items-center" color="#082567"/>
         <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>

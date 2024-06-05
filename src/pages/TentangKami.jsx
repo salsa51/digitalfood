@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 
-const TentangKami = () => {
+export const TentangKami = () => {
   return (
     <div className="tentang-kami">
       <div className="div-2">

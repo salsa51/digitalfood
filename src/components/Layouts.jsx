@@ -26,27 +26,27 @@ export const NavLayout = ({ children }) => {
               Home
             </Link>
             <Link
-              to={"/"}
+              to={"/TentangKami"}
               className='text-black text-lg transition-colors hover:underline hover:underline-offset-4'
             >
               Tentang Kami
             </Link>
             <Link
-              to={"/"}
+              to={"/kontak"}
               className='text-black text-lg transition-colors hover:underline hover:underline-offset-4'
             >
               Kontak
             </Link>
             <Link
-              to={"MarketPlace"}
+              to={"/MarketPlace"}
               className='text-black text-lg transition-colors hover:underline hover:underline-offset-4'
             >
               Marketplace
             </Link>
           </div>
           <div className='flex items-center gap-4'>
-           <Link to="SignIn" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Masuk</Link>
-           <Link to="SignUp" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Daftar</Link>
+           <Link to="/SignIn" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Masuk</Link>
+           <Link to="/SignUp" className='w-[95px] h-[44px] bg-[#1E564D] text-white font-medium text-[16px] rounded-[8px] flex justify-center items-center'> Daftar</Link>
           </div>
         </nav>
       </div>
