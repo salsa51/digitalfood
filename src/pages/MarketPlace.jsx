@@ -3,8 +3,10 @@ import { IoList } from "react-icons/io5";
 import { GrLocation } from "react-icons/gr";
 import { Frame } from '../components/Frame';
 import '../styles/market.css';
+import { useNavigate } from 'react-router-dom';
 
 export const MarketPlace = () => {
+  const navigate = useNavigate();
   return (
     <div className="market-place-semua">
       <div className="div-8">
@@ -97,22 +99,27 @@ export const MarketPlace = () => {
           <div className="frame-24">
             <div className="frame-25">
               <Frame
+               onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="selada.svg"
               />
               <Frame
+              onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="brokoli.svg"
               />
               <Frame
+              onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="mentimun.svg"
               />
               <Frame
+              onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="labu.svg"
               />
               <Frame
+              onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="kubis.svg"
               />

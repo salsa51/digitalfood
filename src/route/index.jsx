@@ -8,6 +8,7 @@ import ChatbotSidecol from "../pages/ChatbotSidecol";
 import Chatbot from "../pages/Chatbot";
 import TentangKami from "../pages/TentangKami";
 import Kontak from "../pages/Kontak";
+import DetailProductBahan from "../pages/DetailProductBahan";
 
 const AppRouter = () => {
 
@@ -20,6 +21,7 @@ const AppRouter = () => {
       <Route path='/ChatbotSidecol' element={<ChatbotSidecol />} />
       <Route path='/Chatbot' element={<Chatbot />} />
       <Route path='/MarketPlace' element={<MarketPlace />} />  
+      <Route path='/DetailProductBahan' element={<DetailProductBahan />} />  
       <Route path='/TentangKami' element={<NavLayout><TentangKami /></NavLayout>} />  
       <Route path='/Kontak' element={<NavLayout><Kontak /></NavLayout>} /> 
       

@@ -101,14 +101,14 @@ export const Kontak = () => {
                 hasButton={false}
                 logoipsum="2-2.svg"
               /> */}
-              <img className="whatsapp-image" alt="Whatsapp image" src="WhatsApp_Image.png" />
-              <div className="text-wrapper-11">Digital Foods</div>
+              {/* <img className="whatsa-image" alt="Whatsapp image" src="WhatsApp_Image.png" />pp */}
+              {/* <div className="text-wrapper-11">Digital Foods</div> */}
               <img className="unsplash-jx" alt="Unsplash jx" src="unsplash_jX_07BO1jus.png" />
-              <img className="img" alt="Vector" src="Vector-m.svg" />
-              <p className="hi-parto">
+              {/* <img className="img" alt="Vector" src="Vector-m.svg" /> */}
+              {/* <p className="hi-parto">
                 <span className="span">Hi,</span>
                 <span className="text-wrapper-12"> Parto</span>
-              </p>
+              </p> */}
             </div>
           </div>
           {/* <img className="group" alt="Group" src="group-102.png" /> */}
