@@ -34,7 +34,7 @@ export const DetailProductBahan = () => {
                             <img className="!relative !w-8 !h-8" alt="keranjang" src="keranjang.svg"/>
                            
                         </div>
-                        <img className="absolute w-[33px] h-[33px] top-[21px] left-[1258px]" alt="Vector" src="vector.svg" />
+                        <img className="absolute w-[33px] h-[33px] top-[21px] left-[1258px]" alt="Vector" src="Vector-m.svg" />
                         <p className="absolute top-[26px] left-[1301px] [font-family:'Roboto-Bold',Helvetica] font-bold text-transparent text-base tracking-[0.32px] leading-5 whitespace-nowrap">
                             <span className="text-[#5f5f5f] tracking-[0.05px]">Hi,</span>
                             <span className="text-[#000000] tracking-[0.05px]"> Parto</span>
@@ -83,7 +83,10 @@ export const DetailProductBahan = () => {
                             </div>
                         </div>
                     </div>
-                    <img className="absolute w-8 h-8 top-[37px] left-[1066px]" alt="Communication" src="communication.png" />
+                    <a href="/ChatbotSidecol">
+                  {/* <img className="chat" alt="chat" src="chat.svg" /> */}
+                    <img className="absolute w-8 h-8 top-[37px] left-[1066px]" alt="Communication" src="chat.svg" />
+                    </a>
                     <div className="absolute w-[272px] h-[104px] top-0 left-7">
                         <div className="relative h-[104px]">
                             <div className="w-[272px] h-[73px] top-[15px] bg-white absolute left-0" />
@@ -161,8 +164,8 @@ export const DetailProductBahan = () => {
                                     Beli
                                 </div>
                             </div>
-                            <div className="flex w-[124px] h-[38px] items-center justify-center gap-2.5 p-2.5 relative bg-[#1d5d4f] rounded-[5px] border border-solid border-[#000000]">
-                                <div className="relative w-[107px] mt-[-4.00px] mb-[-2.00px] ml-[-1.50px] mr-[-1.50px] [font-family:'Archivo-Bold',Helvetica] font-bold text-white text-xs tracking-[0] leading-6">
+                            <div className="flex w-[124px] h-[38px] items-center justify-center gap-2.5 p-1 relative bg-[#1d5d4f] rounded-[1px] border border-solid border-[#000000]">
+                                <div className="relative w-[50px] mt-[-3.00px] mb-[-1.00px] ml-[-1.50px] mr-[-1.50px] [font-family:'Archivo-Bold',Helvetica] font-bold text-white text-xs tracking-[0] leading-5 ">
                                     Tambah Keranjang
                                 </div>
                             </div>
@@ -170,17 +173,17 @@ export const DetailProductBahan = () => {
                     </div>
                 </div>
                 <div className="flex w-[918px] items-start gap-8 absolute top-40 left-28">
-                    <img className="relative w-[426px] h-[376px] object-cover" alt="Rectangle" src="rectangle.png" />
+                    <img className="relative w-[426px] h-[376px] object-cover" alt="Rectangle" src="sawii.png" />
                     <div className="inline-flex flex-col h-[376px] items-start gap-3.5 relative flex-[0_0_auto]">
                         <div className="flex flex-col w-[457px] items-start gap-6 relative flex-[0_0_auto]">
                             <div className="flex flex-col w-[457px] h-[82px] items-start relative">
                                 <div className="relative w-[457px] h-[52px] mt-[-1.00px] [font-family:'Archivo-SemiBold',Helvetica] font-semibold text-[#000000] text-2xl tracking-[0] leading-[normal]">
                                     Sayur Kol
                                 </div>
-                                <div className="w-28 h-8 top-11 rounded-[5px] border border-solid border-[#000000] absolute left-0" />
-                                <div className="absolute w-[93px] top-[52px] left-2.5 [font-family:'Archivo-SemiBold',Helvetica] font-semibold text-[#000000] text-sm tracking-[0] leading-[normal]">
+                                <div className="w-32 h-8 top-11 rounded-[5px] border border-solid border-[#000000] absolute left-0  " />
+                                <span className="[font-family:'Archivo-SemiBold',Helvetica] font-semibold text-[#000000] text-sm tracking-[0] leading-[normal] ">
                                     Diskon s/d 5%
-                                </div>
+                                </span>
                             </div>
                             <p className="relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-transparent text-[32px] tracking-[0] leading-6 whitespace-nowrap">
                                 <span className="text-[#000000]">Rp. 20.000 </span>

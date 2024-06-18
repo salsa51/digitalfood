@@ -3,10 +3,11 @@ import { IoList } from "react-icons/io5";
 import { GrLocation } from "react-icons/gr";
 import { Frame } from '../components/Frame';
 import '../styles/market.css';
-import { useNavigate } from 'react-router-dom';
+import { Link } from "react-router-dom";
+// import { useNavigate } from 'react-router-dom';
 
 export const MarketPlace = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <div className="market-place-semua">
       <div className="div-8">
@@ -17,9 +18,12 @@ export const MarketPlace = () => {
               <div className="frame-11">
                 <div className="content">
                   <div className="left-part">
+                   
                     <div className="text">Search...</div>
+                    <a href="/keranjang">
                     <img className="keranjang" alt="keranjang" src="keranjang.svg" />
-                    
+                    </a>
+
                   </div>
                   <a href="/ChatbotSidecol">
                   <img className="chat" alt="chat" src="chat.svg" />
@@ -97,36 +101,36 @@ export const MarketPlace = () => {
         <div className="chiller-frozen">Chiller &amp; frozen</div>
           <div className="frame-23">
           <div className="frame-24">
-            <div className="frame-25">
+            <Link to="/DetailProductBahan" className="frame-25">
               <Frame
-               onClick={() => navigate('/DetailProductBahan')}
+              //  onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="selada.svg"
               />
               <Frame
-              onClick={() => navigate('/DetailProductBahan')}
+              // onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="brokoli.svg"
               />
               <Frame
-              onClick={() => navigate('/DetailProductBahan')}
+              // onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="mentimun.svg"
               />
               <Frame
-              onClick={() => navigate('/DetailProductBahan')}
+              // onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="labu.svg"
               />
               <Frame
-              onClick={() => navigate('/DetailProductBahan')}
+              // onClick={() => navigate('/DetailProductBahan')}
                 className="frame-557"
                 src="kubis.svg"
               />
-            </div>
+            </Link>
             </div>
 
-            <div className="frame-26">
+            <Link to="/DetailProductBahan" className="frame-26">
               <Frame
                 className="frame-557"
                 src="pepaya.svg"
@@ -147,11 +151,11 @@ export const MarketPlace = () => {
                 className="frame-557"
                 src="kentan.svg"
               />
-            </div>
+            </Link>
             </div>
         <div className="text-wrapper-15">Buah-buahan dan sayuran</div>
         <div className="frame-20">
-          <div className="frame-21">
+          <Link to="/DetailProductBahan" className="frame-21">
           <Frame
               className="frame-535-instance"
               src="bayam.svg"
@@ -172,26 +176,18 @@ export const MarketPlace = () => {
               className="frame-535-instance"
               src="tomat.svg"
             />
-          </div>
+          </Link>
           </div>
 
          
         <div className="text-wrapper-16">Barang Chiller</div>
 
         <div className="frame-22">
-          <div className="frame-21">
+          <Link to="/DetailProductBahan" className="frame-21">
             <Frame
               className="frame-535-instance"
-    frameClassName="!gap-[67px] ![justify-content:unset] !inline-flex !w-[unset]"
-    hasDiv={false}
-    hasFrame={false}
-    rectangleClassName="!bg-[unset]"
-    text="Paprika"
-    text1="Diskon s/d 5%"
-    text2="Rp. 5.000 / kilo"
-/>;
-
-          
+              src="paprika.svg"
+            />
             <Frame
               className="frame-535-instance"
               src="jahe.svg"
@@ -208,7 +204,7 @@ export const MarketPlace = () => {
               className="frame-535-instance"
               src="pisang.svg"
              />
-             </div>
+             </Link>
           </div>
 
         
