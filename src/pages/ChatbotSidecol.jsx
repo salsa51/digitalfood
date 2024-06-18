@@ -2,7 +2,7 @@ import React from "react";
 // import { IoIosMenu } from "react-icons/io"; 
 import { CiSearch } from "react-icons/ci";
 import { TbAlertTriangleFilled } from "react-icons/tb";
-import { TiArrowForward } from "react-icons/ti";
+// import { TiArrowForward } from "react-icons/ti";
 import { AiOutlinePaperClip } from "react-icons/ai";
 import { HiOutlineEmojiHappy } from "react-icons/hi";
 import { TbSend2 } from "react-icons/tb";
@@ -97,9 +97,9 @@ export const ChatbotSidecol = () => {
         <a href="/MarketPlace">
         <IoChevronBack  className="back flex justify-center items-center" color="#02040F"/>
        </a>
-        <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
+        {/* <TiArrowForward  className="outline-messages-2 flex justify-center items-center" color="#02040F"/>
         <TiArrowForward  className="outline-messages-3 flex justify-center items-center" color="#02040F"/>
-        <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/>
+        <TiArrowForward  className="outline-messages-4 flex justify-center items-center" color="#02040F"/> */}
       </div>
     </div>
   );

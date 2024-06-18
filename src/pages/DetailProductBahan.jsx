@@ -7,11 +7,32 @@ import { GrLocation } from "react-icons/gr";
 import { CiMenuKebab } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import { CiStar } from "react-icons/ci";
-import "../styles/DetailProductBahan.css";
-
+import { Link } from "react-router-dom";
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const DetailProductBahan = () => {
-    
+     const navigate = useNavigate();
+        const [jumlahPembelian, setJumlahPembelian] = useState(1);
+        const hargaPerItem = 20000;
+      
+        const handleTambah = () => {
+          setJumlahPembelian(jumlahPembelian + 1);
+        };
+      
+        const handleKurang = () => {
+          if (jumlahPembelian > 1) {
+            setJumlahPembelian(jumlahPembelian - 1);
+          }
+        };
+      
+        const totalHarga = jumlahPembelian * hargaPerItem;
+
+
+        const handleTambahKeranjang = () => {
+   
+    navigate('/keranjang');
+  };
     return (
         <div className="bg-[#fff2d7] flex flex-row justify-center w-full">
             <div className="bg-[#fff2d7] overflow-hidden w-[1440px] h-[2298px] relative">
@@ -31,8 +52,9 @@ export const DetailProductBahan = () => {
                                     <CiSearch className="!relative !w-6 !h-6" />
                                 </div>
                             </div>
+                            <a href="/keranjang">
                             <img className="!relative !w-8 !h-8" alt="keranjang" src="keranjang.svg"/>
-                           
+                            </a>
                         </div>
                         <img className="absolute w-[33px] h-[33px] top-[21px] left-[1258px]" alt="Vector" src="Vector-m.svg" />
                         <p className="absolute top-[26px] left-[1301px] [font-family:'Roboto-Bold',Helvetica] font-bold text-transparent text-base tracking-[0.32px] leading-5 whitespace-nowrap">
@@ -46,9 +68,9 @@ export const DetailProductBahan = () => {
                                 <div className="inline-flex items-center gap-6 absolute top-0 left-28">
                                     <div className="flex w-[337px] items-start gap-6 relative">
                                         <div className="inline-flex h-8 items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-[#fff2d7] rounded-[5px] border border-solid border-[#000000]">
-                                            <div className="relative w-fit mt-[-5.00px] mb-[-3.00px] [font-family:'Archivo-Medium',Helvetica] font-medium text-[#000000] text-base tracking-[0.32px] leading-5 whitespace-nowrap">
+                                            <Link to="/MarketPlace" className="relative w-fit mt-[-5.00px] mb-[-3.00px] [font-family:'Archivo-Medium',Helvetica] font-medium text-[#000000] text-base tracking-[0.32px] leading-5 whitespace-nowrap">
                                                 Semua
-                                            </div>
+                                            </Link>
                                         </div>
                                         <div className="inline-flex h-8 items-center justify-center gap-2.5 p-2.5 relative flex-[0_0_auto] bg-[#fff2d7] rounded-[5px] border border-solid border-[#000000]">
                                             <div className="relative w-fit mt-[-5.00px] mb-[-3.00px] [font-family:'Archivo-Medium',Helvetica] font-medium text-[#000000] text-base tracking-[0.32px] leading-5 whitespace-nowrap">
@@ -79,7 +101,7 @@ export const DetailProductBahan = () => {
                                 <img className="absolute w-[1440px] h-px top-12 left-0 object-cover" alt="Line" src="line-1.svg" />
                             </div>
                             <div className="absolute top-[13px] left-[774px] [font-family:'Archivo-Medium',Helvetica] font-medium text-[#4e4e4e] text-base tracking-[0.32px] leading-5 whitespace-nowrap">
-                                Buah-buahan &amp; sayuran&gt;
+                                Buah-buahan &amp; Sayuran
                             </div>
                         </div>
                     </div>
@@ -129,46 +151,71 @@ export const DetailProductBahan = () => {
                 <div className="flex flex-col w-64 h-[236px] items-start gap-[30px] p-3 absolute top-40 left-[1054px] bg-white rounded-2xl shadow-[0px_0px_20px_#00000073]">
                     <div className="flex flex-col w-[188px] items-start gap-4 relative flex-[0_0_auto]">
                         <div className="inline-flex flex-col items-start gap-2 relative flex-[0_0_auto]">
-                            <div className="relative w-fit mt-[-1.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xl tracking-[0] leading-6 whitespace-nowrap">
-                                Jumlah Pembelian
-                            </div>
-                            <div className="inline-flex items-center justify-center relative flex-[0_0_auto]">
-                                <div className="flex flex-col w-9 h-9 items-center justify-center gap-2.5 p-[5px] relative bg-[#1d5d4f] rounded-[4px_0px_0px_4px] overflow-hidden">
-                                    <div className="text-white relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-xs tracking-[0] leading-3 whitespace-nowrap">
-                                        -
-                                    </div>
-                                </div>
-                                <div className="flex flex-col w-[46px] h-[35px] items-center justify-center gap-2.5 p-[5px] relative border-t [border-top-style:solid] border-b [border-bottom-style:solid] border-[#000000]">
-                                    <div className="relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs tracking-[0] leading-3 whitespace-nowrap">
-                                        1
-                                    </div>
-                                </div>
-                                <div className="flex flex-col w-9 h-9 items-center justify-center gap-2.5 p-[5px] relative bg-[#1d5d4f] rounded-[0px_4px_4px_0px]">
-                                    <div className="text-[#fbf6f6] relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-xs tracking-[0] leading-3 whitespace-nowrap">
-                                        +
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="inline-flex flex-col items-start gap-2 relative flex-[0_0_auto]">
-                            <div className="relative w-fit mt-[-1.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xl tracking-[0] leading-[normal] whitespace-nowrap">
-                                Total Pembelian
-                            </div>
-                            <div className="relative w-fit [font-family:'Archivo-SemiBold',Helvetica] font-semibold text-[#000000] text-2xl tracking-[0] leading-[normal] whitespace-nowrap">
-                                Rp. 20.000
-                            </div>
-                        </div>
-                        <div className="flex w-[236px] items-start gap-2 relative flex-[0_0_auto] mr-[-48.00px]">
-                            <div className="flex w-[97px] h-[38px] items-center justify-end gap-2.5 p-2.5 relative bg-white rounded-[5px] border border-solid border-[#000000]">
-                                <div className="relative flex-1 mt-[-4.00px] mb-[-2.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs text-center tracking-[0] leading-6">
-                                    Beli
-                                </div>
-                            </div>
-                            <div className="flex w-[124px] h-[38px] items-center justify-center gap-2.5 p-1 relative bg-[#1d5d4f] rounded-[1px] border border-solid border-[#000000]">
-                                <div className="relative w-[50px] mt-[-3.00px] mb-[-1.00px] ml-[-1.50px] mr-[-1.50px] [font-family:'Archivo-Bold',Helvetica] font-bold text-white text-xs tracking-[0] leading-5 ">
-                                    Tambah Keranjang
-                                </div>
-                            </div>
+                           
+                           
+                           
+                           
+                           
+                        <div>
+      <div className="relative w-fit mt-[-1.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xl tracking-[0] leading-6 whitespace-nowrap">
+        Jumlah Pembelian
+      </div>
+      <div className="inline-flex items-center justify-center relative flex-[0_0_auto]">
+        <div 
+          className="flex flex-col w-9 h-9 items-center justify-center gap-2.5 p-[5px] relative bg-[#1d5d4f] rounded-[4px_0px_0px_4px] overflow-hidden cursor-pointer"
+          onClick={handleKurang}
+        >
+          <div className="text-white relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-xs tracking-[0] leading-3 whitespace-nowrap">
+            -
+          </div>
+        </div>
+        <div className="flex flex-col w-[46px] h-[35px] items-center justify-center gap-2.5 p-[5px] relative border-t [border-top-style:solid] border-b [border-bottom-style:solid] border-[#000000]">
+          <div className="relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs tracking-[0] leading-3 whitespace-nowrap">
+            {jumlahPembelian}
+          </div>
+        </div>
+        <div 
+          className="flex flex-col w-9 h-9 items-center justify-center gap-2.5 p-[5px] relative bg-[#1d5d4f] rounded-[0px_4px_4px_0px] cursor-pointer"
+          onClick={handleTambah}
+        >
+          <div className="text-[#fbf6f6] relative w-fit [font-family:'Archivo-Bold',Helvetica] font-bold text-xs tracking-[0] leading-3 whitespace-nowrap">
+            +
+          </div>
+        </div>
+      </div>
+      <div className="inline-flex flex-col items-start gap-2 relative flex-[0_0_auto]">
+        <div className="relative w-fit mt-[-1.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xl tracking-[0] leading-[normal] whitespace-nowrap">
+          Total Pembelian
+        </div>
+        <div className="relative w-fit [font-family:'Archivo-SemiBold',Helvetica] font-semibold text-[#000000] text-2xl tracking-[0] leading-[normal] whitespace-nowrap">
+          Rp. {totalHarga.toLocaleString()}
+        </div>
+      </div>
+      <div className="flex w-[236px] items-start gap-2 relative flex-[0_0_auto] mr-[-48.00px]">
+        <div className="flex w-[97px] h-[38px] items-center justify-end gap-2.5 p-2.5 relative bg-white rounded-[5px] border border-solid border-[#000000]">
+          <div className="relative flex-1 mt-[-4.00px] mb-[-2.00px] [font-family:'Archivo-Bold',Helvetica] font-bold text-[#000000] text-xs text-center tracking-[0] leading-6">
+            Beli
+          </div>
+        </div>
+        <div className="flex w-[124px] h-[38px] items-center justify-center gap-2.5 p-1 relative bg-[#1d5d4f] rounded-[1px] border border-solid border-[#000000]">
+        <Link to="/keranjang"> 
+          <div className="relative w-[50px] mt-[-3.00px] mb-[-1.00px] ml-[-1.50px] mr-[-1.50px] [font-family:'Archivo-Bold',Helvetica] font-bold text-white text-1xl tracking-[0.48px] leading-5"
+          onClick={handleTambahKeranjang}
+          >
+            Tambah Keranjang
+          </div>
+          </Link>
+        </div>
+      </div>
+    </div>
+ 
+
+
+
+
+
+
+
                         </div>
                     </div>
                 </div>

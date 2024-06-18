@@ -20,15 +20,17 @@ export const MenuPayment = () => {
                   <CiSearch className="icon-research" color="#7E7E7E"/>
                 </div>
               </div>
-             
+              <a href="/keranjang">
+              
               <img className="icon-cart-outline" alt="keranjang" src="keranjang.svg" />
+              </a>
             </div>
             <img className="vector" alt="Vector" src="vector.svg" />
             <p className="hi-parto">
               <span className="text-wrapper">Hi,</span>
               <span className="span"> Parto</span>
             </p>
-            <img className="communication" alt="Communication" src="communication.png" />
+            <img className="communication" alt="Communication" src="chat.svg" />
           </div>
           <img className="whatsapp-image" alt="Whatsapp image" src="whatsapp-image-2024-05-07-at-19-04-1.png" />
           <div className="text-wrapper-2">Digital Foods</div>

@@ -104,6 +104,14 @@
     padding: 3px;
     position: relative;
     width: 69px;
+    right: 60px;
+  }
+
+
+  .market-place-semua .icon-research {
+    height: 50px !important;
+    position: relative !important;
+    width: 24px !important;
   }
   
   .market-place-semua .icon-instance-node {
@@ -114,9 +122,11 @@
   
   .market-place-semua .keranjang {
     height: 33px;
-    left: 630px;
-    position: absolute;
+    left: 560px;
+    position: relative;
     width: 33px;
+    align-items: center;
+    justify-content: center;
   }
 
   .market-place-semua .chat {

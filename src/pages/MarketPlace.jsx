@@ -4,6 +4,7 @@ import { GrLocation } from "react-icons/gr";
 import { Frame } from '../components/Frame';
 import '../styles/market.css';
 import { Link } from "react-router-dom";
+import { CiSearch } from "react-icons/ci";
 // import { useNavigate } from 'react-router-dom';
 
 export const MarketPlace = () => {
@@ -18,8 +19,9 @@ export const MarketPlace = () => {
               <div className="frame-11">
                 <div className="content">
                   <div className="left-part">
-                   
+                  
                     <div className="text">Search...</div>
+
                     <a href="/keranjang">
                     <img className="keranjang" alt="keranjang" src="keranjang.svg" />
                     </a>
@@ -28,6 +30,9 @@ export const MarketPlace = () => {
                   <a href="/ChatbotSidecol">
                   <img className="chat" alt="chat" src="chat.svg" />
                   </a>
+                </div>
+                <div className="icon-research-wrapper">
+                  <CiSearch className="icon-research" color="#7E7E7E"/>
                 </div>
               </div>
             </div>
@@ -64,14 +69,16 @@ export const MarketPlace = () => {
                         <div className="text-wrapper-11">Lokasi</div>
                       </div>
                     </div>
+                   
                   </div>
                   
-               
+                  {/* <img className="relative w-px h-[49px] mr-[-1.00px] object-cover" alt="Line" src="Line6.png" /> */}
                 </div>
-                
+               
               </div>
-              
+            
             </div>
+            {/* <img className="absolute w-[1440px] h-px top-12 left-0 object-cover" alt="Line" src="Line1.png" /> */}
           </div>
 
           <a href="/">
