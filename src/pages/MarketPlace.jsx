@@ -182,8 +182,16 @@ export const MarketPlace = () => {
           <div className="frame-21">
             <Frame
               className="frame-535-instance"
-              src="paprika.svg"
-            />
+    frameClassName="!gap-[67px] ![justify-content:unset] !inline-flex !w-[unset]"
+    hasDiv={false}
+    hasFrame={false}
+    rectangleClassName="!bg-[unset]"
+    text="Paprika"
+    text1="Diskon s/d 5%"
+    text2="Rp. 5.000 / kilo"
+/>;
+
+          
             <Frame
               className="frame-535-instance"
               src="jahe.svg"
