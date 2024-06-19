@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 
 
 export const SignIn = () => {
-    const [email, setEmail] = useState("");
+    const [username, setusername] = useState("");
     const [password, setPassword] = useState("");
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log({ email, password });
+        console.log({ username, password });
     };
     return (
     
@@ -39,10 +39,10 @@ export const SignIn = () => {
                                     <div className="text-wrapper-3"></div>
                                     <div>
                                     <input
-                                    type="email"
-                                    placeholder="Email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    type="username"
+                                    placeholder="username"
+                                    value={username}
+                                    onChange={(e) => setusername(e.target.value)}
                                         />
                                     </div>
                                 </div>
