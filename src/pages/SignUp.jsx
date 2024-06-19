@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 
 export const SignUp = () => {
-    const [username, setusername] = useState("");
+    const [username, setUsername] = useState("");
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");
     const [password, setPassword] = useState("");
@@ -53,7 +53,7 @@ export const SignUp = () => {
                                         className="text-wrapper-4"
                                         placeholder="Masukan username Anda"
                                         value={username}
-                                        onChange={(e) => setusername(e.target.value)}
+                                        onChange={(e) => setUsername(e.target.value)}
                                     />
                                 </div>
                             </div>
