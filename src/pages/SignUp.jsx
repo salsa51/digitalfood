@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 
 export const SignUp = () => {
+    const [username, setusername] = useState("");
     const [email, setEmail] = useState("");
     const [address, setAddress] = useState("");
     const [password, setPassword] = useState("");
@@ -17,7 +18,7 @@ export const SignUp = () => {
             alert("Kata sandi tidak cocok!");
             return;
         }
-        console.log({ email, address, password });
+        console.log({ username, email, address, password });
     };
 
     return (
@@ -41,6 +42,24 @@ export const SignUp = () => {
                             <br/>
                             
                         </div>
+
+
+                        <div className="frame-6">
+                            <div className="frame-7">
+                                <div className="text-wrapper-3">username</div>
+                                <div className="div-wrapper">
+                                    <input 
+                                        type="email"
+                                        className="text-wrapper-4"
+                                        placeholder="Masukan username Anda"
+                                        value={username}
+                                        onChange={(e) => setusername(e.target.value)}
+                                    />
+                                </div>
+                            </div>
+                            
+
+
                         <div className="frame-6">
                             <div className="frame-7">
                                 <div className="text-wrapper-3">Email*</div>
@@ -53,7 +72,11 @@ export const SignUp = () => {
                                         onChange={(e) => setEmail(e.target.value)}
                                     />
                                 </div>
-                            </div>
+                        </div>
+                        </div>
+
+                            
+
                             <div className="frame-wrapper">
                                 <div className="frame-8">
                                     <div className="frame-6">
